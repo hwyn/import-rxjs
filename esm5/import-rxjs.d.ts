@@ -1,0 +1,15 @@
+export { lastValueFrom } from 'rxjs/internal/lastValueFrom';
+export { Observable } from 'rxjs/internal/Observable';
+export { forkJoin } from 'rxjs/internal/observable/forkJoin';
+export { from } from 'rxjs/internal/observable/from';
+export { of } from 'rxjs/internal/observable/of';
+export { catchError } from 'rxjs/internal/operators/catchError';
+export { filter } from 'rxjs/internal/operators/filter';
+export { map } from 'rxjs/internal/operators/map';
+export { mergeMap } from 'rxjs/internal/operators/mergeMap';
+export { shareReplay } from 'rxjs/internal/operators/shareReplay';
+export { switchMap } from 'rxjs/internal/operators/switchMap';
+export { tap } from 'rxjs/internal/operators/tap';
+export { Subject } from 'rxjs/internal/Subject';
+export { Subscriber } from 'rxjs/internal/Subscriber';
+export { isObservable } from 'rxjs/internal/util/isObservable';

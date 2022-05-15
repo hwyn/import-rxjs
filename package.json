@@ -2,7 +2,9 @@
   "name": "@fm/import-rxjs",
   "version": "1.0.0",
   "description": "",
-  "main": "import-rxjs.js",
+  "main": "./cjs/import-rxjs.js",
+  "module": "./esm5/import-rxjs.js",
+  "es2015": "./esm/import-rxjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
